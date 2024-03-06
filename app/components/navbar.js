@@ -8,7 +8,7 @@ export default function Navbar() {
     <img className="w-[50px] bg-black rounded-full" src="/logo.png.png"/>
 </div>
 
-<div className="right-side rounded-sm bg-black text-white flex items-center justify-center gap-3 h-[35px]  w-[100px]">
+<div className="right-side rounded-sm border  flex items-center justify-center gap-3 h-[35px]  w-[100px] hover:cursor-pointer hover:bg-yellow-200">
     <div className="text-xl"> <FaShoppingBag/></div>
     <p className="font-semibold">Shop</p>
 </div>
