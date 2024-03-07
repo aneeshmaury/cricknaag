@@ -5,8 +5,10 @@ export default function Home() {
   return (
     <div>
       <Navbar/>
+      <div className=" md:px-14">
+          <Hero/>
+      </div>
       
-        <Hero/>
      
       
     </div>
