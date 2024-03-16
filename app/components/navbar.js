@@ -10,7 +10,7 @@ export default function Navbar() {
 
 <div className="right-side rounded-sm border  flex items-center justify-center gap-3 h-[35px]  w-[100px] hover:cursor-pointer hover:bg-yellow-200">
     <div className="text-xl"> <FaShoppingBag/></div>
-    <p className="font-semibold">Shop</p>
+  <a href="https://www.amazon.in/" target="_black"><p className="font-semibold">Shop</p></a>  
 </div>
 
 
